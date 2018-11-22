@@ -15,8 +15,10 @@ This repo contains simple terraform code with null provider and that use state m
 | Linux  |Start terminal |
 | macOS | Press Command - spacebar to launch Spotlight and type "Terminal," then double-click the search result. |
 
-2. Run the following commands:
+2. Register in Terraform Enterprise, create an organisation and generate atlas token
+3. Run the following commands:
 ```
+    export ATLAS_TOKEN=<atlas token>
     git clone https://github.com/yaroslav-007/atlas-remote-state-backend.git
     cd atlas-remote-state-backend
     terraform init
